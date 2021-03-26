@@ -207,8 +207,8 @@ if ($pgAct == "add" || ($pgAct == "edit" && isset($_GET['id']) && trim($_GET['id
                                                 <?php
                                             }
                                             ?>
-                                        </div>
-                                    </div>
+                                          </div>
+                                    </div>   
 
 
 
