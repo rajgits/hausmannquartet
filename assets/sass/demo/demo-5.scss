@@ -1,0 +1,23 @@
+// demo-5
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/fonts';
+@import '../config/variables';
+
+.intro-slider {
+    .banner {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    &.intro-slider-1 {
+        figure {
+            img {
+                right: 16px;
+                bottom: -9px;
+            }
+        }
+    }
+}

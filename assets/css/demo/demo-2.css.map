@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,4CAAgB,CACZ,GAAG,CAAE,IAAI,CACT,MAAM,CAAE,KAAK,CAEjB,qDAAyB,CACrB,gBAAgB,CAAE,OAAO",
+"sources": ["../../sass/demo/demo-2.scss"],
+"names": [],
+"file": "demo-2.css"
+}

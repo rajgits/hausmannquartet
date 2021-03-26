@@ -1,0 +1,273 @@
+// Card
+
+.card {
+    background-color: #ebf6fa;
+    border-color: transparent;
+    border-radius: 2.5rem;
+    border-width: 0;
+    figure {
+        width: 9.5rem;
+        height: 9.5rem;
+        background-color: #fff;
+        border-radius: 50%;
+        color: $secondary-color;
+        font-size: 4.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &:hover {
+        .card-heading figure {
+            background-color: $secondary-color;
+            color: #fff;
+            transition: all .3s ease;
+        }
+    }
+}
+
+.card-heading {
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 4rem;
+    .card-title {
+        margin-left: 1.7rem;
+    }
+}
+
+.card-content {
+    background-color: #fff;
+    border: 2px solid #b2dded;
+    border-radius: 2.5rem;
+    padding: 4.5rem 5rem;
+    .card-desc {
+        margin-right: -1rem;
+    }
+    .btn-link {
+        margin-left: .8rem;
+    }
+}
+
+.card-menu {
+    margin-left: .8rem;
+    .menu-item {
+        line-height: 3rem;
+        i {
+            font-size: 1.6rem;
+            margin-right: .6rem;
+        }
+        &:hover {
+            i{
+                color: $secondary-color;
+            }
+        }
+    }
+    .item-link {
+        color: $body-text-color;
+        &:hover {
+            color: $primary-color;
+            text-decoration-line: underline;
+            text-decoration-color: $body-text-color;
+        }
+    }
+}
+
+//card-membership
+.card.card-membership {
+    .card-content {
+        padding: 5rem 7rem 5.5rem;
+    }
+    figure {
+        color: #fff;
+        margin: 0 auto 3rem;
+        img {
+            display: inline;
+        }
+    }
+    .price-box {
+        margin-bottom: 4rem;
+    }
+    .member-price {
+        margin-top: 1rem;
+        font-size: 4rem;
+        line-height: 1.25;
+    }
+    .card-menu {
+        text-align: left;
+    }
+    .menu-item {
+        line-height: 4rem;
+        i {
+            color: #80bf2f;
+            margin-right: .8rem;
+        }
+    }
+    .btn-link {
+        margin: 3.5rem 0 0;
+        a {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.card-membership.member-type-1 {
+    .member-price ,.btn-link a ,.btn-link i {
+        color: $secondary-color;
+    }
+}
+.card-membership.member-type-2 {
+    .member-price ,.btn-link a ,.btn-link i {
+        color: $primary-color;
+    }
+}
+.card-membership.member-type-3 {
+    .member-price ,.btn-link a ,.btn-link i {
+        color: #ff9712;
+    }
+}
+
+//card-review 
+.card.card-review {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #b2dded;
+    padding: 5rem;
+    & + .card.card-review {
+        margin-top: 3rem;
+    }
+    figure {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin-bottom: 3rem;
+        margin-right: 1.5rem;
+        border-radius: 50%;
+        overflow: visible;
+        img.quote-icon {
+            position: absolute;
+            top: 0;
+            left: -30%;
+        }
+    }
+    .card-content {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+    .review-author {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+    .review-desc {
+        margin-right: 1.5rem;
+    }
+    .review-city {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .ratings-container {
+        margin: 1rem 0 1.5rem;
+        .ratings,.ratings-val {
+            line-height: 2;
+            letter-spacing: .2em;
+        }
+    }
+}
+
+.card.card-review.review-carousel {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    .card-heading {
+        padding: 0;
+    }
+    .review-desc {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+}
+
+//card-rating
+.card-rating {
+    position: absolute;
+    right: 1.5rem;
+    bottom: -8rem;
+    max-width: 370px;
+    max-height: 347px;
+    padding: 6rem;
+    background-color: $secondary-color;
+    border-radius: 2.5rem;
+    .ratings-container {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+        line-height: 4rem;
+        letter-spacing: .2em;
+    }
+    .card-info {
+        font-size: 3rem;
+        line-height: 1.33;
+        color: #fff;
+        margin-bottom: 3.5rem;
+    }
+    .btn-link a,.btn-link i{
+        color: #fff;
+    }
+}
+.card-rating.card-rating-left {
+    left: 1.5rem;
+    right: auto;
+}
+.card-rating.card-contact {
+    right: 78px;
+}
+
+.card.hover-icon {
+    figure {
+        position: relative;
+        width: 95px;
+        height: 95px;
+    }
+    img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: opacity .3s ease;
+    }
+    img.hover-img {
+        opacity: 0;
+    }
+    &:hover {
+        img.default-img {
+            opacity: 0;
+        }
+        img.hover-img {
+            opacity: 1;
+        }
+    }
+}
+
+@include mq(xl,max) {
+    .card-rating {
+        bottom: -13rem;
+    }
+}
+
+@include mq(md,max) {
+    .card.card-membership {
+        .card-content{
+            padding: 3rem 4rem 3rem;
+        }
+    }
+    .card-rating, .card-rating.card-rating-left, .card-rating.card-contact {
+        position: static;
+        right: 0;
+        max-width: 70%;
+        text-align: center;
+        margin: 5rem auto 0;
+        padding: 3rem;
+        .card-info {
+            font-size: 2rem;
+        }
+    }
+}

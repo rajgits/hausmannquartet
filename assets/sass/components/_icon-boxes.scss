@@ -1,0 +1,178 @@
+// Icon-boxes
+
+.icon-boxes {
+    display: flex;
+    .icon-box + .icon-box {
+        margin-left: 3rem;
+    }
+}
+
+.icon-box {
+    padding: 3rem 5rem;
+    background-color: #fff;
+    border-radius: 30px;
+    min-width: 95px;
+    figure {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10rem;
+        height: 10rem;
+        background-color: #f0f5f8;
+        color: $secondary-color;
+        font-size: 4.4rem;
+        margin-bottom: 3rem;
+        border-radius: 50%;
+    }
+    .box-title {
+        color: $body-text-color;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .box-desc {
+        letter-spacing: 0;
+    }
+}
+
+.icon-box.icon-box-big {
+    padding: 4rem 6.35rem 3.6rem;
+    figure {
+        width: 14.3rem;
+        height: 14.3rem;
+        font-size: 6rem;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+    .box-title {
+        font-size: 2rem;
+        line-height: auto;
+        margin: 0 -3rem;
+    }
+}
+
+.icon-box.icon-box-left {
+    padding: 1.9rem 3rem;
+    display: flex;
+    align-items: center;
+    figure {
+        margin: 0;
+        background-color: $secondary-color;
+        color: #fff;
+    }
+    .box-title {
+        margin-left: 3rem;
+    }
+}
+
+.icon-box.hover-border {
+    background-color: transparent;
+    border:  2px solid transparent;
+    padding: 5rem;
+    transition: border-color .3s ease;
+    
+    figure {
+        position: relative;
+        margin: 0 auto 2rem;
+        font-size: 5rem;
+        background-color: $secondary-color;
+        color: #fff;
+        transition: all .3s ease;
+    }
+    .box-title {
+        font-size: 2.4rem;
+        line-height: 4rem;
+        color: $primary-color;
+        margin-bottom: 1.5rem;
+    }
+    .box-desc {
+        margin: 0 -2rem 3.3rem;
+    }
+    &:hover {
+        border-color: #b2dded;
+        figure {
+            background-color: $primary-color;
+        }
+    }
+}
+
+.icon-box.covid-symptom {
+    padding: 2rem 5rem;
+    figure {
+        position: relative;
+        height: 170px;
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        background-color: #ffa59e;
+        overflow: visible;
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 8%;
+        }
+    }
+}
+
+.icon-box.icon-box-simple {
+    figure {
+        width: 178px;
+        height: 178px;
+        background-color: #ebf6fa;
+        color: $primary-color;
+        font-size: 8rem; 
+        margin: 0 auto 5.5rem;
+    }
+    .box-title {
+        margin: 0 -1rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        color: $primary-color;
+    }
+    .box-desc {
+        line-height: 3.4rem;
+        margin-bottom: 0;
+    }
+    .box-info {
+        line-height: 4rem;
+    }
+}
+
+@include mq(lg,max) {
+    .icon-box.icon-box-big {
+        padding: 4rem 3.35rem 3.6rem;
+        .box-title {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@include mq(md,max) {
+    .icon-boxes {
+        width: 330px;
+        .icon-box, .icon-box.icon-box-big {
+            padding: 1rem 1.5rem;
+            figure {
+                width: 7rem;
+                height: 7rem;
+                font-size: 4.4rem;
+            }
+            .box-title {
+                margin: 0;
+            }
+        }
+    }
+    .icon-boxes .icon-box+.icon-box {
+        margin-left: 1.5rem;
+    }
+    .icon-box {
+        border-radius: 1.5rem;
+        .box-title {
+            font-size: 1.6rem;
+        }
+    }
+}

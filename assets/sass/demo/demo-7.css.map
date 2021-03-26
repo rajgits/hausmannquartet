@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AIEA,OAAO,CAAC,mGAAI;AACZ,OAAO,CAAC,iFAAI;AJKZ,AACI,aADS,AAAA,eAAe,CACxB,SAAS,CAAC,GAAG,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;CACpB;;AALL,AAMI,aANS,AAAA,eAAe,CAMxB,OAAO,CAAC,eAAe,CAAC;EACpB,MAAM,EAAE,KAAK;CAChB;;AARL,AASI,aATS,AAAA,eAAe,CASxB,QAAQ,EAAC,AAAA,KAAC,EAAO,MAAM,AAAb,EAAe;EACrB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "demo-7.scss",
+        "../mixins/_clearfix.scss",
+        "../mixins/_breakpoints.scss",
+        "../mixins/_lazy.scss",
+        "../config/_fonts.scss",
+        "../config/_variables.scss"
+    ],
+    "names": [],
+    "file": "demo-7.css"
+}

@@ -1,0 +1,121 @@
+// Image box
+
+.image-box {
+    figure {
+        img {
+            height: auto;
+        }
+    }
+}
+.image-box.image-over {
+    figure {
+        height: 327px;
+        overflow: visible;
+        position: relative;
+        background-color: $primary-color;
+        img {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+        }
+    }
+}
+
+.box-content {
+    padding: 4rem 5rem;
+    border-radius: 3rem;
+    background-color: #ebf6fa;
+    .box-title {
+        margin-bottom: 3.5rem;
+    }
+    .box-desc {
+        line-height: 3rem;
+        margin-bottom: 3.5rem;
+        letter-spacing: .02em;
+    }
+    .ratings, .ratings-val {
+        font-size: 1.6rem;
+        line-height: 3.4rem;
+        margin-bottom: 0;
+    }
+    .btn-link {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    &.box-content-clock {
+        background-color: #fff0ef;
+        .box-title {
+            font-size: 3.4rem;
+            line-height: 1;
+            margin-bottom: 2.5rem;
+        }
+        .box-desc {
+            display: block;
+            margin-top: 0;
+        }
+        i {
+           color: $secondary-color; 
+        }
+    }
+}
+
+.image-box.doctor-card {
+    .box-content {
+        position: relative;
+        padding: 4.2rem 4rem;
+        z-index: 3;
+        .box-title {
+            margin-bottom: 1rem;
+        }
+        .doctor-cat {
+            margin-bottom: 0;
+        }
+        .box-desc {
+            display: none;
+            margin-top: 1.5rem;
+            margin-bottom: 0;
+        }
+        &.text-center {
+            padding: 2.7rem 4rem;
+        }
+    }
+    .btn-toggle {
+        position: absolute;
+        right: 2rem;
+        bottom: 2rem;
+        color: #b2dded;
+    }
+    .social-links {
+        li + li {
+            margin-left: 2rem;
+        }
+    }
+    .social-link {
+        font-size: 2.4rem;
+        i {
+            color: #b2dded;
+            margin-right: 0;
+        }
+        &:hover {
+            i {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+.image-box.explore-card {
+    figure,.box-content {
+        background-color: #b2dded;
+    }
+    .box-content {
+        padding: 3rem 0 0;
+
+    }
+    .box-title {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-bottom: 0;
+    }
+}

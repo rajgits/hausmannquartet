@@ -1,0 +1,40 @@
+.notification-body{
+    position: fixed;
+    right:4%;
+    bottom:4%;
+    z-index: 1000;
+    max-width:200px;
+    a{
+        background:$grey;
+        padding:5px 10px;
+        border-radius:10px;
+        font-size:$font-nav;
+    }
+    .msg-box{
+        background:$white;
+        padding:10px 15px;
+        margin-bottom: 10px;
+        border-radius:20px;
+        display: inline-block;
+        opacity:0.9;
+        a{
+                        background:$grey;
+            color:$primary;
+            margin:0px 5px;
+            font-size:$font-nav;
+            padding:2px 5px;
+            border-radius:20px;
+            display:inline-block;
+        }
+    }
+     .msg-circle{
+        height:65px;
+        width:65px;
+        border-radius:65px;
+         float:right;
+         background-size:contain;
+         background-repeat: no-repeat;
+         background-position: center;
+         
+    }
+}

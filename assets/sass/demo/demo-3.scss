@@ -1,0 +1,51 @@
+//demo-3
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/fonts';
+@import '../config/variables';
+
+.intro-slider.intro-slider-3 {
+    .owl-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner .banner-content {
+        bottom: 21.4%;
+    }
+    .owl-nav [class*='owl-'] {
+        background-color: #dde3e7;
+    }
+}
+
+.review-carousel.owl-carousel.owl-simple {
+    .owl-stage-outer {
+        padding-left: 4rem;
+        margin-left: -4rem;
+    }
+    .owl-nav {
+        button {
+            font-size: 2.4rem;
+            border-radius: 50%;
+            width: 6rem;
+            height: 6rem;
+            color: $body-text-color;
+            background-color: #fff;
+            &:hover {
+                color: $secondary-color;
+                background-color: #fff;
+            }
+        }
+        .owl-prev {
+            top: 4rem;
+            right: 11rem;
+            left: auto;
+        }
+        .owl-next {
+            top: 4rem;
+            right: 3rem;
+        }
+    }
+}

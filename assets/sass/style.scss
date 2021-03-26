@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+//Mixins
+@import 'mixins/core';
+@import 'mixins/breakpoints';
+@import 'mixins/clearfix';
+@import 'mixins/lazy';
+
+//Config
+@import 'config/fonts';
+@import 'config/variables';
+@import 'config/spacing';
+
+//Plugins
+
+//Base
+@import 'base/base';
+@import 'base/type';
+@import 'base/layout';
+
+//header
+@import 'base/header/header';
+@import 'base/header/menu';
+@import 'base/header/mobile-menu';
+@import 'base/header/sticky-header';
+
+//footer
+@import 'base/footer/footer';
+
+
+//Components
+@import 'components/animation';
+@import 'components/loading-overlay';
+@import 'components/buttons';
+@import 'components/banners';
+@import 'components/carousel';
+@import 'components/forms';
+@import 'components/tabs';
+@import 'components/accordions';
+@import 'components/icon-boxes';
+@import 'components/cards';
+@import 'components/img-boxes';
+@import 'components/blog';
+@import 'components/widget';
+@import 'components/page-header';
+@import 'components/pagination';
+@import 'components/side-bar';
+@import 'components/comment';
+@import 'components/article';
+@import 'components/step-bar';
+
+//Pages-css
+
+//Demoes-css
+.puzzle{
+    border-radius: 9px;
+}
+
+.menu > li > a{
+    color:#004785 !important;
+}
+// .header-middle{
+//     top:32px !important;
+// }
+
+// .sticky-header{
+//     top:4px !important;
+// }
+
+.intro-slider.intro-slider-1 figure img {
+    right: 11px;
+    bottom: -18px;
+}
+.banner-aside.img-right figure .puzzle {
+    right: -11rem !important; 
+    left: auto;
+    height: auto;
+} 
+
+.puzzle {
+    position: absolute;
+    right: 16px;
+    top: -32px !important;
+    z-index: 1; 
+}
+
+.active-menu{
+    color: red !important;
+}
+.ls-20 li{
+    margin-bottom: 6px;
+}

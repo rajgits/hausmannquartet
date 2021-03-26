@@ -1,0 +1,116 @@
+/* Register Page */
+
+.register-page{
+    @include media-breakpoint-down(sm){
+        margin-top:140px;
+    }
+    .left-banner{
+        @include media-breakpoint-down(md){
+            padding:50px;
+        }
+        padding:100px;
+        .display-3{
+            font-weight: $font-500;
+            color:white;
+            @include media-breakpoint-down(sm){
+                font-size:30px;
+            }
+            @include media-breakpoint-down(lg){
+                font-size:60px;
+            }
+        }
+        p{
+            color:white;
+        }
+        .btn{
+            background:transparent;
+            border:1px solid $white;
+            color:$white;
+            padding:15px 30px;
+            margin-bottom:10px;
+            &:hover{
+                background:white;
+                color:$primary;
+            }
+            @include media-breakpoint-down(sm){
+                padding:10px; 
+            }
+        }
+    }
+    
+    .right-banner{     
+        
+        @include media-breakpoint-up(xl){
+           padding:0px 60px; 
+        }
+        
+        @include media-breakpoint-up(md){
+            padding-top:60px;
+        }
+        .pad-lg-0{
+            @include media-breakpoint-up(lg){
+            padding-#{$start-direction}:0px !important;
+                }
+        }
+        .padr-0{
+            padding-#{$end-direction}:0px !important;
+        }
+        @include media-breakpoint-down(lg){
+            padding:0px 20px;
+        }
+        .input-group-text{
+        background:white !important;
+        color:$secondary;
+            border-#{$end-direction}:0px !important;
+        border:1px solid rgba(0,0,0,0.1);
+        border-radius:0px;
+    }
+    input{
+        border:1px solid rgba(0,0,0,0.1);
+        border-radius:0px;
+       
+    }
+        .intl-tel-input{
+            background-color:$white;
+        }
+        .selected-dial-code{
+            padding:0px 18px;
+        }
+        .custom-select{
+            width:auto !important ;
+            margin-top:0px !important;
+            padding:auto !important;
+        }
+    
+    .form-control{
+         &:placeholder{
+            color:$grey !important;
+        }
+    }
+    select{
+        border:1px solid rgba(0,0,0,0.1);
+        border-radius:0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    }
+        
+        h3{
+            @include media-breakpoint-down(sm){
+                text-align: center;
+            }
+            @include media-breakpoint-up(lg){
+                margin-top:-90px;
+                font-size:40px;
+            }
+        }
+        .col-md-12,.col-md-6,.col-6{
+            @include media-breakpoint-down(md){
+                margin-top:10px;
+            }
+        }
+
+    }
+    
+}

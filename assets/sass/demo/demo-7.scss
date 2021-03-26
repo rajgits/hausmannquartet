@@ -1,0 +1,21 @@
+//Demo-7
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/fonts';
+@import '../config/variables';
+
+.intro-slider.intro-slider-7 {
+    .owl-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner .banner-content {
+        bottom: 26.8%;
+    }
+    .owl-nav [class*='owl-'] {
+        background-color: #c5e8eb;
+    }
+}

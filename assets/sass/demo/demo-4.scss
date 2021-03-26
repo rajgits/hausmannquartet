@@ -1,0 +1,85 @@
+//demo-4
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/fonts';
+@import '../config/variables';
+
+.intro-slider.intro-slider-4 {
+    .owl-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .banner {
+        .banner-content {
+            bottom: 29.4%;
+        }
+        .banner-title {
+            letter-spacing: -.02em;
+            margin-bottom: 2.1rem;
+        }
+        .banner-info {
+            margin-bottom: 2.5rem;
+        }
+    }
+    .owl-nav [class*='owl-'] {
+        background-color: #f8f8f7;
+    }
+}
+
+.review-carousel.owl-carousel.owl-simple {
+    .owl-stage-outer {
+        padding-left: 4rem;
+        margin-left: -4rem;
+    }
+    .owl-nav {
+        button {
+            font-size: 2.4rem;
+            border-radius: 50%;
+            width: 6rem;
+            height: 6rem;
+            color: $body-text-color;
+            background-color: #fff;
+            &:hover {
+                color: $secondary-color;
+                background-color: #fff;
+            }
+        }
+        .owl-prev {
+            top: 4rem;
+            right: 21rem;
+            left: auto;
+        }
+        .owl-next {
+            top: 4rem;
+            right: 13rem;
+        }
+    }
+}
+
+.book-form.book-form-4  {
+    position: absolute;
+    right: 16px;
+    top: 15.9rem;
+    max-width: 405px;
+    height: 651px;
+    z-index: 2;
+    .sub-title {
+        margin-top: .2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .btn-form {
+        font-size: 1.6rem;
+        font-size: 700;
+        letter-spacing: 0;
+    }
+}
+
+@include mq(lg,max) {
+    .book-form.book-form-4 {
+        display: none;
+    }
+}

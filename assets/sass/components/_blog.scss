@@ -1,0 +1,244 @@
+// Blog
+
+.post-box {
+    margin-top: 3rem;
+    figure {
+        position: relative;
+        a {
+            &:not(.btn-video)::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: 0;
+                border-radius: 3rem;
+                content: "";
+                background: rgba(40, 55, 121, 0.3);
+                transition: all 0.3s;
+                opacity: 0;
+            }
+            &:hover {
+
+                &::after {
+                    opacity: 1;
+                }
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+            transition: all .35s ease;
+        }
+    }
+}
+
+.post-box .box-content {
+    border-radius: 2.5rem;
+    padding: 4rem 5rem;
+    .box-title {
+        line-height: 4rem;
+        font-weight: 400;
+        margin-bottom: 1.7rem;
+        a {
+            color: $primary-color;
+        }
+    }
+    .post-date {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .post-desc {
+        margin-right: -1rem;
+        margin-bottom: 0;
+    }
+}
+
+.post-box.no-image {
+    .box-title {
+        color: #fff;
+    }
+    .post-author {
+        color: #ebf6fa;
+    }
+    .post-date {
+        color: #838cb1;
+    }
+    .box-content.bg-secondary-color {
+        .post-date {
+            color: #f9aaaa;
+        }
+    }
+}
+.text-divider {
+    color: #bec1cc;
+    margin: 0 1.7rem;
+}
+
+//Blog-detailed
+.blog-content {
+    
+    p {
+       line-height: 3.4rem; 
+       margin-bottom: 4rem;
+    }
+    .blog-subtitle {
+        font-size: 4rem;
+    }
+    p.secondary-color {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+    ul {
+        line-height: 3.4rem;
+        margin-left: 4.5rem;
+        a:not([href]) {
+            margin-left: -1.4rem;
+            color: $primary-color;
+        }
+        i.fa-caret-right {
+            color: $secondary-color;
+            margin-right: .6rem;
+        }
+    }
+    a:hover {
+        i {
+            color: $primary-color;
+        }
+    }
+    .social-links {
+        i {
+            font-size: 3rem;
+            color: #b2dded;
+            margin-right: 2rem;
+        }
+    }
+}
+
+.blog-action {
+    border-top: 3px solid #b2dded;
+    .action-prev, .action-next {
+        flex: 1;
+    }
+    .action-next {
+        .action-title {
+            margin-right: 0;
+            margin-left: auto;
+        }
+    }
+    .btn-action {
+        display: block;
+        color: $body-text-color;
+        padding: 5rem 0 3.5rem;
+        min-width: auto;
+        &.blog-next {
+            text-align: end;
+        }
+    }
+    .action-title{
+        flex: 1;
+        max-width: 25rem;
+        margin-bottom: 0;
+    }
+    i.fa-line-columns {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4rem;
+        color: #b2dded;
+    }
+}
+
+.blog.blog-preview {
+    display: flex;
+    background-color: #ebf6fa;
+    border-radius: 2.5rem;
+    padding: 4rem;
+    figure {
+        margin-right: 2rem;
+        overflow: visible;
+        img {
+            width: 9.2rem;
+        }
+    }
+    .blog-author {
+        font-size: 2rem;
+    }
+    .blog-desc {
+        font-size: 1.6rem;
+    }
+    a:hover {
+        i {
+            color: $primary-color;
+        }
+    }
+    .social-links {
+        i {
+            font-size: 2rem;
+            color: #b2dded;
+            margin-right: 1.5rem;
+        }
+    }
+    .btn-xs {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 1rem 4.3rem;
+        color: $primary-color;
+        background-color: #fff;
+    }
+}
+
+
+//doctor-menu
+.doctor-menu {
+    border-top: 2px dotted #b2dded;
+    .blog-doctor {
+        border-bottom: 2px dotted #b2dded;
+    }
+}
+.blog.blog-doctor {
+    position: relative;
+    padding: 3.6rem 0 3.2rem;
+    figure {
+        margin-right: 3rem;
+    }
+    .blog-content {
+        .doctor-name {
+            line-height: 3.4rem;
+        }
+        .ratings, .ratings-val, .doctor-info, .doctor-availivility {
+            font-size: 1.6rem;
+            line-height: 3.4rem;
+            margin-bottom: 0;
+        }
+    }
+    .btn-link a {
+        font-size: 1.4rem;
+        line-height: 3.4rem;
+    }
+    .btn-form {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 170px;
+        margin-top: 0;
+    }
+}
+
+@include mq(md,max) {
+    .post-box .box-content {
+        padding: 3rem 2rem;
+    }
+    .blog.blog-preview .btn-xs {
+        position: relative;
+    }
+    .blog.blog-doctor {
+        text-align: center;
+        .btn-form {
+            position: relative;
+            transform: translateY(0);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+// demo-6
+@import '../mixins/clearfix';
+@import '../mixins/breakpoints';
+@import '../mixins/lazy';
+
+@import '../config/fonts';
+@import '../config/variables';
+
+.intro-slider .banner {
+    .banner-content {
+        bottom: 26.8%;
+    }
+}
+
+.book-form-6 {
+    position: static;
+    max-width: 700px;
+    .input-title {
+        margin-top: 2rem;
+    }
+    .btn-form {
+        max-width: 290px;
+    }
+}
+
+@include mq(lg,max) {
+    .book-form-6 {
+        background-color: RGB(255,255,255,.6);
+    }
+}

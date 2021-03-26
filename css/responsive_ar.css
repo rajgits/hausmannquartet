@@ -1,0 +1,2332 @@
+@media (min-width:1200px) and (max-width:5000px) {
+	.footlistleft {
+		padding-left: 50px;
+	}
+
+	.profileAuthor p {
+		padding-left: 115px;
+	}
+}
+@media (min-width:1024px) and (max-width:1440px) {
+	.signup-popup .modal-content{
+		max-height: 650px;
+		overflow-y: scroll!important
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.topmenu ul li a {
+		font-size: 16px;
+	}
+	.rightmenu ul li{
+		margin: 0;
+	}
+	.rightmenu ul li a{
+		font-size: 16px;
+	}
+	
+/*
+	.logo a {
+		width: 135px;
+		background: #e1e1e1;
+		padding: 15px 0;
+		display: block;
+		overflow: hidden;
+		height: 94px;
+	}
+*/
+	/*.logo img{ width:135px;}*/
+	.rightmenu {
+		padding-left: 0;
+	}
+/*
+	.rightmenu ul li a {
+		font-size: 14px;
+		padding: 25px 0px 24px 30px;
+	}
+*/
+	.bannercapInner {
+		width: 100%;
+		max-width: 850px;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.boxtitle h4 {
+		padding: 15px 30px;
+	}
+	.boxcontent {
+		padding: 10px;
+	}
+	.countSection h3 {
+		font-size: 19px;
+	}
+	.footlist h3 {
+		font-size: 16px;
+	}
+	.footlogo p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.changelocation {
+		padding: 9px 5px;
+		margin-left: 7px;
+	}
+	.profileInnerBoxRT a {
+		font-size: 14px;
+	}
+	.profileAuthor p {
+		font-size: 13px;
+		padding-left: 115px;
+	}
+	.pstrength h4 {
+		font-size: 12px;
+	}
+/*
+	.boxtab li {
+		width: 223px;
+	}
+*/
+	.p-Box h2 {
+		font-size: 14px;
+    	height: 35px;
+	}
+	.tablisttwo {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.tabContentCol {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		padding: 15px 0 0;
+	}
+	.hourly,
+	.monthly,
+	.weekly,
+	.daily {
+		width: 18%;
+		float: left;
+		margin-right: 0.5%;
+	}
+	.aed {
+		width: 20%;
+		float: left;
+		margin-right:  0.5%;
+	}
+	.toContent,
+	.fromContent {
+		width: 90%;
+		padding: 15px 20px;
+	}
+	.socialliks ul li {
+		margin: 0 0 0 6px;
+	}
+	.footlistleft {
+		padding-left: 39px;
+	}
+	.mypostCol-Lt ul li {
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.jobTypeSelect {
+		background: #fff url(../img/arrow.png) no-repeat 91% 50%;
+		background-size: auto auto;
+		background-size: 12px;
+		/* height: 40px; */
+	}
+	.jobTypeSelect select {
+		height: 40px;
+		font-size: 12px;
+	}
+	.mypostCol-Lt {
+		width: 70%;
+		float: left;
+	}
+	.mypostCol-Rt {
+		float: right;
+		width: 28%;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	li.your-loc {
+		width: 70%!important;
+	}
+	.topactionRow ul li{
+		width: 30%;
+	}
+	.topactionRow ul{
+		width: 64%;
+	}
+	.footerTop{
+		padding: 20px 0;
+	}
+	.footlist{
+		text-align: center;
+	}
+	.newsletterSection{
+		padding: 15px 0;
+	}
+	.socialliks{
+		padding: 15px 0 0;
+	}
+	.boxText h2 a{
+		font-size: 18px;
+	}
+	.boxText{
+		margin-bottom: 15px;
+	}
+	.contentSection {
+		padding: 15px;
+	}
+	.bannercapInner h3{
+		font-size: 26px;
+		margin: 0 0 15px 0; 
+	}
+	.searchbox{
+		padding: 20px 20px 10px 20px;
+	}
+	.searchbtn{
+		font-size: 14px;
+		top: 20px;
+		right: 20px;
+	}
+	.notify-count{
+		top: 9px;
+	    line-height: 18px;
+	}
+	.hidden-xs-sm{
+		display: none!important;
+	}
+	.rightmenu ul{
+		display: flex;
+        justify-content: flex-end;
+	}
+	.rightmenu ul li.hide {
+		display: block;
+	}
+	.topmenu {
+		display: none;
+	}
+	.bannercapInner {
+		width: 100%;
+		max-width: 85%;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+	}
+	.banner {
+		height: 450px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+	}
+	.banner img {
+		display: block;
+		height: 100%;
+		object-fit: cover;
+	}
+	.postjob img {
+		width: 100px;
+	}
+	.boxtitle h4 {
+		padding: 15px 25px;
+	}
+	.boxcontent {
+		padding: 10px;
+		border-top: 1px solid #a1a1a1;
+	}
+	.countSection ul li {}
+	.newsletterRow {
+		text-align: center;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+	.socialliks {
+		text-align: center;
+		padding: 20px 0 0;
+	}
+	.socialliks h3 {
+		text-align: center;
+	}
+	.socialliks ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.socialliks ul li {
+		display: inline-block;
+		list-style: none;
+		float: none;
+		margin: 0 7px;
+	}
+	.footlogo img {
+		float: none;
+		margin: 0 auto 20px;
+		width: 110px;
+		display: block;
+	}
+	.footlogo {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	footer {
+		text-align: center;
+	}
+	.footright {
+		text-align: center;
+		padding: 7px 15px 0;
+	}
+	.changelocation {
+		padding: 9px 3px;
+		margin: 0 0 0px 5px;
+	}
+	.topactionRow ul li{
+		padding: 5px 0px 5px;
+	}
+	.profileInnerBoxRT a {
+		font-size: 14px;
+	}
+	.profileAuthor p {
+		font-size: 13px;
+		padding-left: 115px;
+	}
+	.pstrength h4 {
+		font-size: 12px;
+	}
+	.boxtab li {
+		margin: 0;
+		width: 33.333%;
+	}
+	.p-Box h2 {
+		font-size: 14px;
+    	height: 35px;
+	}
+	.tablisttwo {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.tabContentCol {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		padding: 15px 0 0;
+	}
+	.hourly,
+	.monthly,
+	.weekly,
+	.daily {
+		width: 18%;
+		float: left;
+		margin-right: 8px;
+	}
+	.aed {
+		width: 20%;
+		float: left;
+		margin-right: 8px;
+	}
+	.toContent,
+	.fromContent {
+		width: 90%;
+		padding: 15px 20px;
+	}
+	.p-Box p {
+		font-size: 13px;
+		font-weight: 500; 
+	    margin: 0 0 10px;
+	}
+/*
+	.top-mar {
+		margin-top: 15px;
+	}
+*/
+	.footlogo p {
+		padding: 0;
+		text-align: center;
+	}
+	.filterRight {
+		margin-top: 15px
+	}
+	.p-Box {
+		padding: 25px 4px;
+		margin: 0 0 0 0;
+		background: #fff;
+	}
+	.searchSectionFilter {
+		margin-top: 25px;
+		overflow: hidden;
+	}
+	.mypostCol-Lt {
+		width: 70%;
+	}
+	.mypostCol-Rt {
+		width: 26%;
+	}
+}
+@media (min-width:481px) and (max-width:767px) {
+	.side-menu-wrapper{
+		width: 50%;
+	}
+	.topmenu {
+		display: none;
+	}
+	.bannercapInner {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		padding: 0px 0 0;
+	}
+	.bannercap {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		display: block;
+		vertical-align: middle;
+		align-items: center;
+		padding: 0;
+		text-align: center;
+	}
+	.banner {
+		height: auto;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+	}
+	.banner img {
+		display: block;
+		height: 140px;
+		object-fit: cover;
+	}
+	.postjob img {
+		width: 100px;
+		height: auto;
+	}
+	.boxtitle h4 {
+		padding: 15px 25px;
+	}
+	.boxcontent {
+		padding: 10px;
+		border-top: 1px solid #a1a1a1;
+	}
+	.countSection ul li {
+		margin: 0;
+	}
+	.newsletterRow {
+		text-align: center;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+	.socialliks {
+		text-align: center;
+		padding: 40px 0 0;
+	}
+	.socialliks h3 {
+		text-align: center;
+	}
+	.socialliks ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.socialliks ul li {
+		display: inline-block;
+		list-style: none;
+		float: none;
+		margin: 0 7px;
+	}
+	.footlogo img {
+		float: none;
+		margin: 0 auto 20px;
+		width: 110px;
+		display: block;
+	}
+	.footlogo {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	footer {
+		text-align: center;
+	}
+	.footright {
+		text-align: center;
+		padding: 7px 15px 0;
+	}
+	.bannercapInner h3 {
+		font-size: 18px;
+		margin: 0 0 15px 0;
+		padding: 0;
+	}
+	.searchbox {
+		padding: 15px;
+	}
+	.searchboxrow {
+		float: left;
+		width: 100%;
+		margin: 0 0 4px;
+	}
+/*
+	.rightmenu ul li a {
+		font-size: 0px;
+		padding: 0;
+		width: 25px;
+		height: 25px;
+	}
+*/
+	.rightmenu ul {
+		margin: 6px 0px;
+		padding: 0;
+		float: right;
+	}
+	.leftside,
+	.rightside {
+		width: 100%;
+	}
+	.leftside {
+		margin-bottom: 25px;
+	}
+	.footlist {
+		text-align: left;
+		margin-bottom: 25px;
+	}
+	.contentSection {
+		padding: 0 0 25px 0;
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		background: #fff;
+	}
+	.rightmenu ul li.hide {
+		display: block;
+	}
+	.formContnet {
+		padding: 0 30px;
+	}
+	.socialContent {
+		padding: 10px 30px;
+	}
+	.changelocation {
+		padding: 9px 2px;
+		margin: 15px 0 15px;
+		width: 100%;
+		font-size: 13px;
+		margin-right: 1%;
+	}
+	.viewprofile{
+		padding: 9px 2px;
+		margin: 15px 0 15px;
+		width: 50%;
+		font-size: 13px;
+	}
+	
+/*
+	.aedbtn {
+		margin: 15px 0 0 10px;
+	}
+*/
+	.profileInnerBoxLT {
+		float: left;
+		width: 100%;
+	}
+	.profileInnerBoxRT {
+		float: left;
+		width: 100%;
+		padding: 15px 0;
+	}
+	.profileInnerBoxRT a {
+		font-size: 14px;
+		float: left;
+/*		padding: 8px 25px 8px 54px;*/
+		margin: 0;
+	}
+	.topactionRow ul li {
+		width: 50%;
+	}
+
+	.profileAuthor p {
+		font-size: 12px;
+		padding-left: 115px;
+	}
+	.pstrength h4 {
+		font-size: 12px;
+	}
+/*
+	.boxtab li {
+		width: 100%;
+		margin: 0 0 10px;
+	}
+*/
+	.p-Box h2 {
+		font-size: 14px;
+    	height: 35px;
+	}
+	.tablisttwo {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.tabContentCol {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		padding: 15px 0 0;
+	}
+	.hourly,
+	.monthly,
+	.weekly,
+	.daily {
+		width: 47%;
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+	.aed {
+		width: 100%;
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+	.toContent,
+	.fromContent {
+		width: 90%;
+		padding: 15px 20px;
+	}
+	.p-Box p {
+		font-size: 13px;
+		font-weight: 500; 
+	    margin: 0 0 10px;
+	}
+/*
+	.top-mar {
+		margin-top: 15px;
+	}
+*/
+	.topactionRow ul {
+		width: 100%;
+	}
+	.innerTabOneList li a {
+		padding: 10px;
+		font-size: 15px
+	}
+	#inner-tab li a {
+		font-size: 10px;
+	}
+	#inner-tab li a img {
+		width: 20px;
+		margin: 3px 10px 0 0;
+	}
+	.upload-btn-wrapper span {
+		top: 5px;
+	}
+	.payCOn img {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.payCOn {
+		text-align: center;
+	}
+	.projectimg {
+		float: none;
+		width: 150px;
+		border-right: none;
+		padding: 5px 10px 10px;
+		text-align: center;
+		margin: 0 auto 15px;
+	}
+	.confirmDetails {
+		height: auto;
+	}
+	.confirmDetails {
+		height: auto;
+		text-align: center;
+		padding: 5px;
+	}
+	.confirmDetails ul {
+		border: none;
+		width: auto;
+		padding: 0;
+		margin: 10px 0 0;
+		text-align: center;
+	}
+	.confirmDetails ul li {
+		margin: 0 5px 5px 0;
+		display: inline-block;
+		float: none;
+	}
+	.myaddBtn {
+/*		width: 150px;*/
+		height: 40px;
+		text-align: center;
+		background: #33316f;
+		font-size: 16px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 500;
+		display: block;
+		padding: 0;
+	}
+	.favoritesRow {
+		padding: 75px 25px 25px;
+		text-align: center;
+	}
+	.favAction ul,
+	.timeRow ul {
+		display: block;
+		text-align: center;
+	}
+	.cahatsInner {
+		position: relative;
+		padding: 20px 20px 20px 71px
+	}
+	.favAction ul li,
+	.timeRow ul li {
+		display: inline-block;
+		list-style: none;
+		float: none;
+		margin: 0 0 10px;
+		text-align: center;
+	}
+	.chatTabLt {
+		width: 50px;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	.chatTabLt li a {
+		font-size: 0;
+	}
+	.chatTabLt li a,
+	.nav-pills .nav-link.active,
+	.nav-pills .show>.nav-link,
+	.chatTabLt li:hover a {
+		background-position: center center !important;
+		width: 18px;
+		height: 30px;
+	}
+	#chats-tabContent {
+		width: 100%;
+	}
+	.footlogo p {
+		padding: 0;
+		text-align: center;
+	}
+	.dataLt {
+		float: left;
+		width: 100%;
+	}
+	.dataAction {
+		float: right;
+		width: 100%;
+		padding: 9px 0;
+	}
+	.filterRight {
+		margin-top: 15px
+	}
+	.wTBox {
+		width: 100%;
+		float: left;
+		padding: 0 15px;
+		margin: 0 0 15px;
+	}
+	.searchSectionFilter {
+		margin-top: 25px;
+		overflow: hidden;
+	}
+	.mypostCol-Lt {
+		width: 100%;
+	}
+	.mypostCol-Rt {
+		width: 100%;
+	}
+	.inputFil {
+		float: left;
+		width: 100%;
+	}
+	.inputLOC input {
+		border-left: none;
+		border-top: 1px solid #cfcfcf;
+	}
+	.searchSectionFilter {
+		width: 100%;
+		clear: both;
+		padding: 0;
+	}
+	.filtersearch {
+		position: relative;
+		width: 100%;
+		top: 0;
+		right: 0;
+		clear: both;
+	}
+	.inputLOC {
+		margin-bottom: 0;
+	}
+	.mypostCol-Lt ul li {
+		display: block;
+		float: left;
+		margin: 0 0 15px 0;
+		font-size: 10px;
+		color: #333333;
+		width: 50%;
+		line-height: 11px;
+	}
+	.actionbtn {
+/*
+		width: 100%;
+		clear: both;
+		text-align: left;
+		margin: 0 0 10px;
+*/
+		position: absolute;
+		left: 10px;
+		width: auto;
+		bottom: 0;
+	}
+	.innertabcon .newJobType {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.topactionRow .currency {
+		float: right;
+		width: 130px;
+		margin: 15px 0 0;
+	}
+	.profileInnerBoxRT a.editprofile {
+		padding: 8px 25px 8px 54px;
+	}
+	.applyBtn,
+	.mypostCol-Rt h5 {
+		clear: both;
+		float: left;
+		margin-top: 10px;
+	}
+	.rffbtn {
+		font-size: 10px;
+		text-transform: uppercase;
+		color: #999;
+		background-size: auto auto;
+		background-size: auto auto;
+		background-size: 14px;
+		font-weight: 500;
+		float: left;
+		padding: 0 25px 0 0;
+		position: relative;
+		top: 0;
+		right: 0;
+		width: auto;
+		clear: both;
+		display: inline-block;
+		margin: 0 0 15px;
+	}
+	.mypostCol-Lt ul {
+		margin: 0 0px;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+	}
+}
+
+@media (min-width:290px) and (max-width:480px) {
+
+	.p-Box h2{
+	    word-break: break-word;		
+	}
+	.softbyresult h3{
+		font-size: 13px;
+	}
+	.sortby{
+		font-size: 11px!important;
+	    padding: 7px 5px 7px 26px;
+	}
+	/*.logo img{ width:155px;}*/
+	.topmenu {
+		display: none;
+	}
+	.bannercapInner {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		clear: both;
+		padding: 0px 0 0;
+	}
+	.bannercap {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		display: block;
+		vertical-align: middle;
+		align-items: center;
+		padding: 0;
+		text-align: center;
+	}
+	.banner {
+		height: auto;
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+	}
+	.banner img {
+		display: block;
+		height: 140px;
+		object-fit: cover;
+	}
+	/* .postjob {
+		position: absolute;
+		top: -73%;
+		left: 3%;
+		z-index: 999;
+	} */
+	.boxtitle h4 img {
+		display: inline-block;
+		margin: 0 15px 0 0;
+	}
+	.postjob img {
+		width: 120px;
+		height: auto;
+	}
+	.boxtitle h4 {
+		padding: 15px 25px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.boxText {
+		margin: 0 0 15px;
+	    padding-left: 20px;
+	}
+	.boxText h2 {
+		font-size: 16px;
+	}
+	.boxText p {
+		font-size: 12px;
+	}
+	.countSection ul li span {
+		display: none;
+	}
+	.boxcontent {
+		padding: 10px;
+		border-top: 1px solid #a1a1a1;
+	}
+	.countSection ul li {
+		margin: 5px 1px;
+	}
+/*
+	.newsletterForm input.subbtn {
+		display: block;
+		width: 120px;
+		height: 36px;
+		background: #33316f;
+		font-size: 16px;
+		font-weight: 600;
+		color: #fff;
+		text-transform: uppercase;
+		border: none;
+		position: relative;
+		top: inherit;
+		right: inherit;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		margin: 10px auto;
+	}
+*/
+	.newsletterForm {
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+	.newsletterRow {
+		text-align: center;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+	.socialliks {
+		text-align: center;
+		padding: 0 0;
+	}
+	.newsletterSection {
+		padding: 20px 0;
+	}
+	.socialliks h3 {
+		text-align: center;
+	}
+	.socialliks ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.socialliks ul li {
+		display: inline-block;
+		list-style: none;
+		float: none;
+		margin: 0 7px;
+	}
+	.footlogo img {
+		float: none;
+		margin: 0 auto;
+		width: 110px;
+		display: block;
+	}
+	.footlogo {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	.bannercapInner h3 {
+		font-size: 16px;
+		margin: 0 0 15px 0;
+		padding: 0;
+	}
+	.searchbox {
+		padding: 15px;
+		margin: 0 0 10px;
+	}
+	.searchbtn {
+/*
+		display: block;
+		width: 110px;
+		height: 46px;
+		background: #33316f;
+		font-size: 14px;
+		color: #fff;
+		text-transform: uppercase;
+		border: none;
+		position: relative;
+		top: 0;
+		right: 0;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		float: right;
+		margin: 15px 0 0;
+*/
+	}
+	.searchboxrow {
+		float: left;
+		width: 100%;
+		margin: 0 0 4px;
+	}
+/*
+	.rightmenu ul li a {
+		font-size: 0px;
+		padding: 0;
+		width: 25px;
+		height: 25px;
+	}
+*/
+	.rightmenu ul {
+		margin: 6px 0px;
+		padding: 0;
+		float: right;
+	}
+	.leftside,
+	.rightside {
+		width: 100%;
+	}
+	.leftside {
+		margin-bottom: 25px;
+	}
+	.footlist {
+		text-align: left;
+		margin-bottom: 25px;
+	}
+	.contentSection {
+		padding: 0 0 10px 0;
+		width: 96%;
+		clear: both;
+		overflow: hidden;
+		background: #fff;
+		margin: 0 2%;
+	}
+	.rightmenu ul li {
+		margin: 0 0 0 10px;
+	}
+	.rightmenu ul li.hide {
+		display: block;
+	}
+	.formContnet {
+		padding: 0 0px;
+	}
+	.socialContent {
+		padding: 10px 20px;
+	}
+	.inputRow span {
+		font-size: 10px;
+		top: 15px;
+	}
+	.socialContent p {
+		font-size: 14px;
+	}
+	.modalbody {
+		padding: 10px;
+	}
+	.changelocation {
+		padding: 9px 20px;
+		margin: 15px 0;
+		font-size: 13px;
+		width: 100%;
+	}
+	.viewprofile{
+		padding: 9px 20px;
+		margin: 0 0 15px;
+		font-size: 13px;
+		width: 100%;
+	}
+	.authorcol {
+		width: 100px;
+		float: none;
+		margin: 0 auto;
+		position: relative;
+	}
+	.profileAuthor {
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		padding: 0 0 0;
+	}
+	.innerTabOneList li:first-child {
+		padding: 0 0 0 0;
+	}
+	.innerTabOneList li:last-child {
+		padding: 0 0 0 0;
+	}
+	.innerTabOneList li {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		margin: 0 !important;
+	}
+	.aedbtn {
+/*
+		margin: 15px auto 0;
+		width: 150px;
+		float: none;
+		clear: both;
+*/
+		position: absolute;
+		right: 7%;
+		top: 18%;
+		z-index: 1;
+	}
+	.profileInnerBoxLT {
+		float: left;
+		width: 100%;
+	}
+	.profileInnerBoxRT {
+		float: left;
+		width: 100%;
+		padding: 15px 0;
+	}
+	.profileInnerBoxRT a {
+		font-size: 14px;
+		float: left;
+/*		padding: 8px 25px 8px 54px;*/
+		margin: 0;
+	}
+	.topactionRow ul li {
+		width: 50%;
+		display: block;
+		float: left;
+		list-style: none;
+		padding: 5px 5px 3px;
+	}
+/*
+	.topactionRow ul li:last-child {
+		text-align: right;
+	}
+*/
+	.profileAuthor p {
+		font-size: 12px;
+	}
+	.pstrength h4 {
+		font-size: 12px;
+	}
+/*
+	.boxtab li {
+		width: 100%;
+		margin: 0 0 10px;
+	}
+*/
+	.p-Box h2 {
+		font-size: 11px;
+		min-height: 45px;
+		margin-bottom: 0;
+		/* font-weight: bold; */
+	}
+	.tablisttwo {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.tabContentCol {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		padding: 15px 0 0;
+	}
+	.aed {
+		width: 100%;
+		float: left;
+		margin: 0 0 10px 0;
+	}
+	.toContent,
+	.fromContent {
+		width: 90%;
+		padding: 15px 20px;
+	}
+	.p-Box p {
+		font-size: 13px;
+	}
+/*
+	.top-mar {
+		margin-top: 15px;
+	}
+*/
+	.topactionRow ul {
+		width: 100%;
+	}
+	.innerTabOneList li a {
+		padding: 10px;
+		font-size: 15px
+	}
+	#inner-tab li a {
+		font-size: 13px;
+	}
+	#inner-tab li a img {
+		width: 20px;
+		margin: 3px 10px 0 0;
+	}
+	.upload-btn-wrapper span {
+		top: 5px;
+		display: none;
+	}
+	.my-postsRow .boxText h2,
+	.my-postsRow .boxText h2 a {
+		font-size: 20px;
+	}
+	.boxText h3 a,
+	.boxText h3,
+	.boxText h3 a:hover {
+		font-size: 12px;
+	}
+	.userRow {
+		width: 100%;
+		clear: both;
+		padding: 15px;
+		border: 1px solid #cfcfcf;
+		position: relative;
+		height: auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	.favAction ul li a {
+		font-size: 14px;
+	}
+	.favAction ul li img {
+		height: 16px;
+		margin: 0 7px 0 0;
+		float: left;
+	}
+	.favAction ul li:first-child a {
+		display: none;
+	}
+	.settingformLt,
+	.settingformRt {
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.locationrow {
+		float: right;
+		width: 100%;
+		text-align: center;
+	}
+/*
+	.userimg {
+		float: none;
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+*/
+	.payRt,
+	.payLt {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.payCOn img {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.payCOn {
+		text-align: center;
+	}
+	.projectimg {
+		border-right: none;
+		padding: 5px 10px 10px;
+		text-align: center;
+	}
+	.confirmDetails {
+		height: auto;
+	}
+	.confirmDetails {
+		height: auto;
+		text-align: center;
+		padding: 5px;
+	}
+	.confirmDetails ul {
+		border: none;
+		width: auto;
+		padding: 0;
+		margin: 10px 0 0;
+		text-align: center;
+	}
+	.confirmDetails ul li {
+		margin: 0 5px 5px 0;
+		display: inline-block;
+		float: none;
+	}
+	.myaddBtn {
+/*
+		width: 115px;
+		height: 36px;
+		text-align: center;
+		background: #33316f;
+		font-size: 14px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		display: block;
+		padding: 0;
+
+		padding: 2px 8px!important;
+		width: 100%!important;
+		height: auto!important;
+*/
+	}
+	.favoritesRow {
+		padding: 75px 25px 25px;
+		text-align: center;
+	}
+	.favAction ul,
+	.timeRow ul {
+		display: block;
+		text-align: center;
+	}
+	.cahatsInner {
+		position: relative;
+		padding: 20px 20px 20px 71px
+	}
+	.favAction ul li,
+	.timeRow ul li {
+		display: inline-block;
+		list-style: none;
+		float: none;
+		margin: 0 0 10px;
+		text-align: center;
+	}
+	.chatTabLt {
+		width: 50px;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	.chatTabLt li a {
+		font-size: 0;
+	}
+	.chatTabLt li a,
+	.nav-pills .nav-link.active,
+	.nav-pills .show>.nav-link,
+	.chatTabLt li:hover a {
+		background-position: center center !important;
+		width: 18px;
+		height: 30px;
+	}
+	#chats-tabContent {
+		width: 100%;
+	}
+	.footlogo p {
+		padding: 0;
+		text-align: center;
+	}
+	.dataLt {
+		float: left;
+		width: 100%;
+	}
+	.dataAction {
+		float: right;
+		width: 100%;
+		padding: 9px 0;
+	}
+	.filterRight {
+		margin-top: 15px
+	}
+	.innertabcon a {
+		padding: 9px 30px;
+	}
+	.innertabcon .newJobType {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.topskillsRow a.addtoprofile {
+		float: left;
+	}
+	.wTBox {
+		width: 100%;
+		float: left;
+		padding: 0 15px;
+		margin: 0 0 15px;
+	}
+	.moreSelect {
+		position: relative;
+		width: 94%;
+		top: 0;
+		border: 1px solid #ccc;
+		right: 0;
+	}
+	.profileInnerBoxRT a {
+		display: block;
+		width: 100%
+	}
+	.searchSectionFilter {
+		margin-top: 25px;
+		overflow: hidden;
+	}
+	.mypostCol-Lt {
+		width: 100%;
+	}
+	.mypostCol-Rt {
+		width: 100%;
+	}
+	.inputFil {
+		float: left;
+		width: 100%;
+	}
+	.inputLOC input {
+		border-left: none;
+		border-top: 1px solid #cfcfcf;
+	}
+	.searchSectionFilter {
+		width: 100%;
+		clear: both;
+		padding: 0;
+	}
+	.filtersearch {
+		position: relative;
+		width: 100%;
+		top: 0;
+		right: 0;
+		clear: both;
+	}
+	.inputLOC {
+		margin-bottom: 0;
+	}
+	.mypostCol-Lt ul li {
+		display: block;
+		float: left;
+		margin: 0 0 15px 0;
+		font-size: 10px;
+		color: #333333;
+		width: 50%;
+		line-height: 11px;
+	}
+	.actionbtn {
+/*
+		width: 100%;
+		clear: both;
+		text-align: left;
+		margin: 0 0 10px;
+*/
+		position: absolute;
+		right: 10px;
+		width: auto;
+		bottom: 0;
+	}
+	.innertabcon .newJobType {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.topactionRow .currency {
+		float: right;
+		width: 130px;
+		margin: 15px 0 0;
+	}
+	.profileInnerBoxRT a.editprofile {
+		padding: 8px 25px 8px 54px;
+	}
+	.applyBtn,
+	.mypostCol-Rt h5 {
+		clear: both;
+		float: left;
+		margin-top: 10px;
+	}
+	.rffbtn {
+		font-size: 10px;
+		text-transform: uppercase;
+		color: #999;
+		background-size: auto auto;
+		background-size: auto auto;
+		background-size: 14px;
+		font-weight: 500;
+		float: left;
+		padding: 0 25px 0 0;
+		position: relative;
+		top: 0;
+		right: 0;
+		width: auto;
+		clear: both;
+		display: inline-block;
+		margin: 0 0 15px;
+	}
+	.mypostCol-Lt ul {
+		margin: 0 0px;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+	}
+}
+
+@media (min-width:290px) and (max-width:365px) {
+	.breadcrumbTop .resetallbtn {
+		float: none;
+		clear: both;
+		width: 120px;
+		margin: 0 auto;
+	}
+}
+/*surbhi*/
+@media (min-width:290px) and (max-width:767px) {
+    .bugfromtemplate{
+        margin-top:130px !important;
+    }
+	.deleteprofilebtn {
+		top: -2px;
+		right: 20px;
+		font-size: 12px!important;
+	}
+	.favbtn{
+		border-right: none;
+		float: left;
+		font-size: 12px;
+	}
+	#lookingfor_param{
+		padding: 0;
+	}
+	.select-style{
+		background-position: 98%;
+	}
+	.notify-drop a{
+		font-size: 18px!important;
+	}
+	.del-text{
+		display: none;
+	}
+	.notify-user{
+		width: 10%;
+	}
+	.card-body{
+		font-size: 12px;
+	}
+	.card-header .notify-title{
+		font-size: 14px;
+	}
+	.popsubmit{
+		font-size: 14px;
+		width: 90px;
+    	height: 30px;
+	}
+	.success-msg{
+		margin: 10px;
+    	font-size: 18px;
+		line-height: 24px;
+    	padding: 10px;
+	}
+	.fa-twitter:before {
+		font-size: 16px;
+	}
+	.fa-facebook-f:before, .fa-facebook:before {
+		font-size: 14px;
+	}
+	.innertabcon input{
+		padding: 0 10px;
+	}
+	.view-msg{
+		margin: 0 1% 0!important;
+		display: inline-block;
+		padding: 5px 10px;
+	}
+	.settingsInner {
+		padding: 10px;
+	}
+	.msg{
+		width: 95%;
+	}
+	.delete{
+		width: 5%;
+	}
+	.ratings{
+		font-size: 15px;
+	}
+	.job-detail .ratings{
+		font-size: 12px;
+		float: left;
+		padding-right: 10px;
+		border-right: 1px solid #c5c5c5;
+		margin-right: 10px;
+	}
+	.list-info .ratings {
+		margin-top: 5px;
+	}
+	.align-btn {
+		margin-right: -5px;
+	}
+	.alert-info{
+		width: 50%
+	}
+	.profiellink {
+		margin-top: 1em;
+	}
+	.verify-input{
+		width: 65%!important;
+	}
+	.verifybtn{
+		width: 34%;
+		line-height: 13px;
+	}
+	.topactionRow ul li{
+		padding: 5px 0px 5px;
+	}
+	.estimatedselect .select-style select{
+		font-size: 13px;
+	}
+	.signup a:hover .hov {
+		display: none;
+	}
+	.signup a:hover .hov-hide{
+		display: block;
+	}
+	.signin a:hover .hov-hide{
+	display: block
+	}
+	.signin a:hover .hov{
+		display: none;
+	}
+	.contactform{
+		padding: 15px;
+	}
+	.post-edit-form{
+		padding-top: 15px;
+	}
+	.faq-div .panel-title a{
+		font-size: 14px;
+		padding: 10px 0 10px 0;
+	}
+	.panel-title>a.collapsed:before{
+		padding: 0 5px;
+	}
+	.faq-div .panel-body{
+		margin: 0;
+		font-size: 14px;
+	}
+	.faq-div h2{
+		font-size: 22px;
+	    margin-bottom: 10px;
+	}
+	.mypostCol-Lt ul.postedlist li{
+		line-height: 15px;
+	}
+	.newsletterForm .alert-success{
+		color: #155724;
+		background-color: #d4edda;
+		border-color: #c3e6cb;
+		padding: 5px;
+	}
+	.settingsInner{
+		margin-bottom: 15px;
+	}
+	.mypostCol-Lt .job-title {
+		margin-bottom: 10px;
+	}
+	.mypostCol-Rt ul {
+		margin: 0;
+		padding: 5px 0 0;
+	}
+	.profileInnerBox{
+		margin: 0px auto 20px;
+		padding: 10px;
+	}
+	.job-title a{
+		font-size: 16px;
+		line-height: 0;
+	}
+	.inputCAT{
+		border-right: none!important;
+		border-bottom: 1px solid #cccccc;
+	}
+	.inputTYPE{
+		border-bottom: 1px solid #cccccc;
+	}
+	.inputTYPE select,.inputTYPE select, .inputSAL, .inputEXP, .inputDATE{
+		border-left: none!important;
+	}
+	.inputCAT select, .inputTYPE select, .inputDATE input{
+		border-bottom: 1px solid #cccccc!important;
+	}
+	.inputSAL input, .inputCAT select, .inputTYPE select, .inputDATE input{
+		background-position: 3%;
+	}
+	.mypostCol-Rt{
+		border-top: 1px solid #ddd;
+	}
+	.job-detail .mypostCol-Rt{
+		border-top: none;
+	}
+	.num-rates{
+		width: 58px;
+	}
+	.cand-head h5{
+		font-size: 18px;
+	}
+	.authorInfo center{
+		text-align: right;
+	}
+	.looking-heading{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.innerTabOneConent{
+		margin-bottom: 1em;
+		padding: 10px;
+	}
+	.listingpaytab .select-pay .hourly, .listingpaytab .select-pay .monthly, .listingpaytab .select-pay .weekly, .listingpaytab .select-pay .daily {
+		width: 31%;
+		margin: 1%;
+		padding: 0;
+	}
+	.listingpaytab .select-pay .aed {
+		width: 31%;
+		margin: 1%;
+	}
+	.leftsidetab {
+		margin-bottom: 1em;
+		margin-top: 22px;
+	}
+	.notification-box, .message-box{
+		margin: 0 15px 15px 15px; 
+		text-align: left;
+		padding: 10px;
+	}
+	.notify-row{
+		padding: 5px 0;
+	}
+	.conversation-box .notify-row{
+		padding: 5px;
+	}
+	.conversation-box .notify-msg {
+		width: 89%;
+	}
+	.notification-box .notify-user{
+		margin-right: 2%;
+	}
+	.notification-box .notify-msg {
+		width: 84%;
+	}
+	.notification-box .notify-title {
+		font-size: 12px;
+	}
+	.notify-msg{
+		width: 88%;
+	}
+	.reply-edit{
+		width: 10%;
+		font-size: 18px;
+	}
+	.reply-card .notify-user {
+		width: 10%;
+	}
+	.reply-user{
+		width: 10%;
+	}
+	.reply-msg{
+		width: 78%;
+	}
+	.notify-edit{
+		width: 4%;
+	}
+	.total-rr{
+		display: none;
+	}
+	.comment-rate .ratings{
+		float: none;
+	}
+	.inputOPP input{
+		border-right: none;
+	}
+	.list-info {
+		margin: 0;
+	}
+/*
+	.appliedbtn{
+		float: none;
+	}
+*/
+	
+	.notify-count{
+		top: 8px;
+		line-height: 15px;
+		width: 15px;
+		height: 15px;
+	}
+	.hidden-xs-sm{
+		display: none!important;
+	}
+	.cand-project thead th{
+		font-size: 13px;
+	}
+	.cand-profile{
+		float:right;
+	}
+	.cand-profile img {
+		padding: 0px;
+		border-radius: 0px;
+		width: 70px;
+		height:80px;
+		float: left;
+		margin-right: 0px;
+	}
+	.cand-title{
+		margin: 0;
+		padding: 0;
+        padding-right: 8px !important;
+		text-align: right;
+		display: inline-block;
+		width: 70%;
+		margin-left: 2%;
+        float: left;
+	}
+	.cand-rating{
+		text-align: right;
+		font-size: 14px;
+	}
+	.inputSAL, .inputEXP, .inputDATE, .inputCAT, .inputTYPE{
+		width: 100%;
+	}
+	.time-tabs .pay-box {
+		padding: 10px 2px;
+		min-height: 50px;
+		margin-bottom: 5px;
+		display: flex;
+		align-items: center;
+	}
+	.time-tabs .nav-item{
+		width: 50%!important;
+	}
+	.signin a, .signup a{
+		font-size: 0!important;
+		margin: 0!important;
+		padding: 11px 0!important;
+	}
+	.rightside .boxtitle{
+		border-top: 2px solid #a1a1a1;
+	}
+	.leftside{
+		border-right: 0;
+		height: auto;
+	}
+	.videoCol{
+		width: 100%;
+	}
+	.slide-menu-open{
+		margin: 0!important;
+    	line-height: 24px;
+	}
+	.rightmenu ul li a{
+		font-size: 16px;
+	}
+	#subscribemsgdiv #successmsg {
+		position: unset;
+	}
+	.mapdetails{
+		padding: 10px;
+	}
+	.mapcol {
+		height: 250px;
+	}
+	.exp-box{
+		font-size: 14px;
+	}
+	.exp-btn{
+		font-size: 12px;
+	}
+	.textColcontactpage h2{
+		font-size: 20px;
+	}
+	.myaddBtn{
+		margin: 10px 0;
+	}
+	.my-postsRow{
+		margin-bottom: 1em;
+	}
+	.job-detail .myaddBtn{
+		width: 48%!important;
+		float: left;
+		margin: 0 1% 10px!important;
+	}
+	.job-detail .mypostCol-Lt ul.postedlist li{
+		width: 100%;
+	}
+	.job-detail .mypostCol-Lt ul.postedlist {
+		margin-bottom: 0;
+	}
+	.job-detail .mypostCol-Lt h2{
+		font-size: 18px; 
+	    word-break: break-all;
+		width: 100%;
+	}
+	
+	.p-Box{
+		padding: 10px;
+	}
+	.p-Box .icon img{
+		width: 50px;
+	}
+	.popupheader .closeBtn{
+		font-size: 24px;
+	}
+	.modal-content{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.boxcontent{
+		margin-bottom: 1em!important;
+	}
+	.mypostCol-Lt ul.postedlist{
+		margin: 0 0 10px;
+	}
+	.mypostCol-Lt .job-title a{
+		font-size: 18px;
+		word-break: break-all;
+	}
+	.mypostCol-Lt ul.postedlist li span{
+		font-size: 12px;
+	}
+	.mypostCol-Rt h5{
+		margin: 10px 0 0px 0;; 
+	}
+	.searchbtn{
+		width: 100px;
+		height: 32px;
+		margin-left: auto!important;
+		margin-top: 10px;
+		position: unset;
+		border-radius: 4px;
+		font-size: 14px;
+	}
+	.searchboxrow input{
+		background-position: 98%;
+	}
+	#category_param{
+		background-position: 3%;	
+	}
+	.aed{
+		width: 100%;
+	}
+	.mypostCol-Lt ul.postedlist li{
+		width: 100%;
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.tabinputrow h4, .select-box h4 {
+		font-size: 16px;
+		margin: 0 0 10px;
+		padding: 0;
+	}
+	.innertabcon h2, .skillsInner h2{
+		font-size: 16px;
+	}
+	.skillsInner .small-text{
+		font-size: 12px;
+	}
+	.skillsInner p, .descriptionTabCon p{
+		font-size: 14px;
+	}
+	.innertabcon, .skillsInner, .worktypeInner{
+		padding: 10px;
+	}
+	.time-tabs .pay-box img {
+		width: 22px;
+	}
+	.pay-box{
+		padding: 10px;
+		min-height: 115px;
+	}
+	.pay-box h3{
+		font-size: 12px!important;
+	    margin: 0;
+	}
+	.pay-box p{
+		margin-left: 38px;
+		margin-bottom: 0;
+		font-size: 10px;
+	}
+	.pay-box img{
+	    width: 22px;
+	}
+	.popupheader img{
+		display: none;
+	}
+	.textCol{
+		margin: 0;
+	}
+	.aboutpage .subtitle{
+		width: 100%;
+	    font-size: 14px;
+	    padding: 8px;
+		margin: 15px auto -10px;
+	}
+	.aboutpage h2{
+		font-size: 20px;
+	}
+	.rightmenu ul{
+		display: flex;
+        justify-content: center;
+	}
+	footer{
+		padding: 6px 0;
+	}
+	footer p{
+		font-size: 10px;
+	}
+	.moreSelect{
+		margin: 0 auto;
+	}
+	.logo img{
+		width: 86px;
+	}
+	header{
+		height: 60px;
+	}
+	.p-Box a, .boxtab li .p-Box.active a{	
+    	background-size: 24px;
+	}
+	.footlist ul li:hover a{
+		transform: none;
+	}
+	.newsletterForm input.subbtn{
+		width: 29%;
+		margin: 0;
+		height: 34px;
+		border: none;
+		margin-left: 1%;
+		font-size: 12px;
+	}
+	.p-Box p{
+		/* min-height: 140px; */
+		font-weight: 500;;
+	}
+	.rightmenu ul li a:hover{
+		background-color: transparent;
+		color: #33316f!important;
+	}
+	.logged-drop a:hover .hov-hide{
+		display: block;
+	}
+	.logged-drop a:hover .hov{
+		display: none;
+	}
+	.logged-drop .nav-link{
+		padding: 0;
+	}
+	#mblslidemenu .logged-drop .nav-link{
+		padding: 6px 4px 6px 4px;
+	}
+	#mblslidemenu .logged-drop .dropdown-menu{
+		right: unset;
+    	left: unset!important;
+	    margin-bottom: 2px;
+		border-radius: 0;
+	}
+	#mblslidemenu .logged-drop .dropdown-item{
+		color: #24235c;
+	}
+	.logged-drop .dropdown-menu .dropdown-item:hover{
+		background-color: #eee;
+		color: #16181b!important;
+	}
+	.navtabs li a{
+		padding: 10px;
+		font-size: 14px;
+	}
+	.popup-logo img {
+		width: 80px;
+	}
+	.modal-dialog {
+		max-width: 400px;
+	}
+	.drop-menu .dropdown-menu{
+		min-width: auto !important;
+	}
+	.logged-drop .dropdown-menu {
+		padding: 0;
+		line-height: 32px;
+		right: 0;
+		left: unset!important;
+		transform: translate(0%, 100%)!important;
+		top: 0!important;
+	}
+	.logged-drop .dropdown-item {
+		padding: 0px 10px;
+		margin: 0;
+		font-size: 13px;
+		width: 100%;
+		line-height: 25px;
+	}
+	.footerTop {
+		padding: 15px 0;
+	}
+	.howitworkbanner h3 {
+		margin: 0;
+	}
+	.howitworkbanner span {
+		margin: 0 0 25px;
+		display: block;
+		s
+	}
+	.howitworkbanner h3 {
+		font-size: 20px;
+		margin: 0 0 15px 0;
+		padding: 0;
+		color: #8e8c8d;
+	}
+	.contactMap {
+		margin-top: 15px;
+	}
+	.textColcontactpage {
+		text-align: center;
+		padding-top: 25px;
+		font-size: 14px;
+	}
+	.mobile-foot .panel-title a {
+		font-size: 16px;
+	}
+	.social-icons i {
+		line-height: 30px;
+		font-size: 16px;
+		height: 30px;
+		width: 30px;
+	}
+	.footlist ul li a {
+		font-size: 13px;
+	}
+	.newsletterRow h2,
+	.socialliks h3 {
+		font-size: 16px;
+		margin: 0 0 10px;
+        text-align:center;
+	}
+	.newsletterForm input {
+		padding: 0 8px;
+		font-size: 14px;
+		height: 34px;
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+	.boxtitle h4 {
+		font-size: 18px;
+	}
+	.titlecon h3 {
+		padding: 16px 0;
+		font-size: 20px;
+	}
+	.subpageContent {
+		padding: 15px 0 0px 0;
+	}
+}
+
+
+/* Custom css open here */
+
+/* Signup form css open here */
+
+/* Sign up modal css open here */
+
+
+
+@media only screen and (max-width: 767px){
+
+	/* Captcha responsive css open here */
+
+	.signup-popup #rc-imageselect,
+	.signup-popup .g-recaptcha {
+		transform:scale(0.77);
+		-webkit-transform:scale(0.77);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+
+	.contactform #rc-imageselect,
+	.contactform .g-recaptcha {
+		transform:scale(0.77);
+		-webkit-transform:scale(0.77);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+
+	/* Captcha responsive css close here */
+
+	/* homepage css open here */
+
+	.boxtitle h4{
+		text-align: center;
+	}
+
+	.bannercap-btn-div{
+		display:flex;
+		align-items: center;
+	}
+
+	.postjob, .lookforjob{
+		display: block;
+		position: inherit!important;
+		width: 100%;
+		text-align: center;
+		margin: 0 5px;
+		top: 0;
+		right: 0;
+	}
+	.postjob .myaddBtn, .lookforjob .myaddBtn{
+		width:100%;
+		text-align:center;
+		font-size:12px!important;
+	}
+
+	/* homepage css open here */
+
+	/* Vacancy page css open here */
+
+	.panel-body.filter-list{
+		max-height: 200px;
+		overflow: auto;
+	}
+
+	/* Vacancy page css close here */
+
+}
+
+@media only screen and (min-width:768px){
+	.list-info .ratings {
+		margin-bottom: 10px;
+	}
+	#st-1 .st-btn > svg{
+    height: 32px!important;
+    width: 24px!important;
+    top: 0!important;
+	}
+	 #st-1 .st-btn > img{
+		height: 32px!important;
+		width: 22px!important;
+		top: 0!important;
+	}
+	.panel-body.filter-list{
+		max-height: 200px;
+		overflow: auto;
+	}
+}
+
+
+/* Dashboard page box css open here */
+@media only screen and (max-width:526px){
+	.p-Box p{
+		min-height: 140px;
+		font-weight: 500;;
+	}
+}
+/* Dashboard page box css close here */
+
+
+/* Edit profile otp input field css open here */
+
+/*
+	@media only screen and (max-width:481px){
+		#otpformdiv{
+			position: absolute;
+			right: 0;
+			top: 268px;
+			 margin-top: 50px; 
+		}
+	}
+
+	.hide-on-mob{
+		display: none;
+	}
+*/
+
+	/* @media only screen and (max-width:480px){
+		.hide-on-mob{
+			display: none;
+		}
+	} */
+
+	
+
+/* Edit profile otp input field css close here */
+
+
+/* Sign up modal css close here */
+
+/* Custom css close here */
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and ( max-width:992px){
+    .user-responsive{
+        display: none !important;
+        text-align:right;
+    }
+    .logo img{
+        right:14px;
+    }
+}
+
+@media only screen and (max-width:579px){
+    .authorInfo ul li {
+        background-position: 90.5% !important;
+    }
+    .projectimg {
+        border-left:1px solid #f7f7f7;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:580px){
+    
+}
+
+@media only screen and (max-width:1200px) and (min-width:768px){
+    
+}
+@media only screen (min-width:1200px){
+    
+}

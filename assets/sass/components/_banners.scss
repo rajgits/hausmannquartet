@@ -1,0 +1,329 @@
+// Banner
+
+.intro-slide {
+    height: calc(100vh - 48px);
+    font-size: 1rem;
+    &.banner {
+        .banner-content {
+            top: auto;
+            bottom: 23.4%;
+            .banner-title {
+                font-size: 8em;
+                margin-bottom: 2.4rem;
+                margin-left: -2px;
+            }
+            .banner-info {
+                font-size: 2rem;
+                line-height: 3.4rem;
+                letter-spacing: .03em;
+            }
+        }
+        .banner-actions .btn {
+            padding: 1.9rem 4.5rem;
+            margin-right: 1.7rem;
+        } 
+    }
+}
+
+.banner {
+    figure {
+        margin: 0;
+        img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: auto;
+        }
+    }
+    .banner-content {
+        position: absolute;
+        top: 20%;
+        .banner-title {
+            margin-bottom: 2rem;
+        }
+        .banner-info {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.banner-big {
+    .banner-info {
+        font-size: 2rem;
+        line-height: 3.4rem;
+    }
+}
+
+.banner-actions {
+    .btn {
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+
+.banner-simple {
+    position: relative;
+    overflow: hidden;
+    #img-banner-4 {
+        right: 13.5%;
+    }
+    #img-banner-3 {
+        right: 27.3%;
+    }
+    .banner-content  {
+        position: static;
+    }
+}
+
+.banner-aside {
+    display: block;
+    align-items: center;
+    figure {
+        position: relative;
+        margin-right: 2rem;
+        margin-bottom: 0;
+        overflow: visible;
+        .img-aside {
+            width: 100%;
+            height: auto;
+            border-radius: 3rem;
+        }
+        .puzzle {
+            height: auto;
+            left: -4rem;
+            bottom: 60.4%;
+            top: auto;
+        }
+    }
+    .banner-content {
+        width: 50%;
+        .banner-title {
+            letter-spacing: -.02em;
+            margin-bottom: 3rem;
+        }
+        .banner-subtitle {
+            color: #b2dded;
+            font-size: 3rem;
+        }
+        .banner-desc {
+            font-size: 2rem;
+            line-height: 1.7;
+            margin: 0 3rem 3rem 0;
+        }
+        
+    }
+    .card-menu .menu-item {
+        font-size: 2rem;
+        line-height: 3.4rem;
+    }
+    & + & {
+        margin-top: 11rem;
+    } 
+}
+.banner-aside.img-right {
+    figure {
+        margin-left: auto;
+        margin-right: 0;
+        
+        .puzzle {
+            right: -4rem;
+            left: auto;
+            height: auto;
+        }
+    }
+}
+.banner-aside.figure-over {
+    .banner-content {
+        margin-top: 13.5rem;
+    }
+    figure .puzzle {
+        bottom: 46.6%;
+    }
+}
+
+.banner-big.banner-big-3 {
+    .banner-content {
+        max-width: 700px;
+    }
+    .review-desc {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+}
+
+//banner-subcontent 
+.banner-subcontent {
+    margin-right: -8.5rem;
+    line-height: 3rem;
+    
+    .menu-item {
+        padding: 1.5rem 0 2.5rem;
+        border-bottom: 2px dotted #b2dded;
+        span {
+            font-weight: 500;
+            margin-right: .5rem;
+        }
+        i.fa-check {
+            font-size: 1.6rem;
+            color: #80bf2f;
+            margin-right: 1rem;
+        }
+    }
+    
+}
+.subcontent-title {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+//banner-sidebar
+.sidebar-box.banner-sidebar {
+    position: relative;
+    background-size: cover;
+    border-width: 0;
+    min-height: 561px;
+    padding: 4rem;
+    .banner-title {
+        font-size: 3.4rem;
+        line-height: 4.4rem;
+    }
+    .banner-desc {
+        padding: 0 3rem;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+    .btn.btn-form {
+        margin-top: 25.4rem;
+    }
+}
+
+@include mq(xl,max) {
+    .intro-slide {
+        font-size: .8rem;
+    }
+    .intro-slider.intro-slider-1 .banner.intro-slide {
+        img {
+            right: -20%;
+        }
+    }
+    .banner-simple {
+        #img-banner-3 {
+            right: 15%;
+        }
+        #img-banner-4 {
+            right: 0;
+        }
+    }
+    .banner-aside {
+        .banner-title {
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+        figure {
+            .puzzle {
+                width: 17%;
+                left: 8.5%;
+                top: 9%;
+                bottom: auto;
+            }
+        }
+    }
+    .banner-aside.img-right {
+        figure {
+            .puzzle {
+                right: 8.5%;
+                left: auto;
+            }
+        }
+    }
+    .banner-aside.figure-over {
+        figure {
+            .puzzle {
+                top: 30%;
+            }
+        }
+    }
+}
+
+@include mq(lg,max) {
+    .banner.intro-slide {
+        font-size: .6rem;
+        img {
+            opacity: .2!important;
+        }
+    }
+    
+    .banner-aside {
+        .banner-content.blog-content {
+            width: 100%;
+        }
+        .banner-content {
+            margin-top: 0;
+        }
+    }
+}
+    
+@include mq(md,max) {
+    .intro-slide {
+        font-size: .4rem;
+    }
+    .intro-slider.intro-slider-1 .banner.intro-slide {
+        img {
+            right: -56%;
+        }
+    }
+    .banner-simple {
+        figure img {
+            width: auto;
+            height: 90%;
+            mix-blend-mode: overlay;
+        }
+        #img-banner-3 {
+            right: 7%;
+        }
+        #img-banner-4 {
+            right: auto;
+            left: 7%;
+        }
+    }
+    .banner-big {
+        padding: 5rem 0;
+    }
+    .banner-aside .banner-content,.banner-aside.figure-over .banner-content  {
+        margin-top: 5rem;
+    }
+    .banner-aside.img-right {
+        figure {
+            width: 100%;
+        }
+    }
+    .banner-aside {
+        .banner-content {
+            width: 100%;
+        }
+        .banner-subcontent {
+            margin-right: 0;
+        }
+    }
+    .puzzle {
+        transform: scale(.7);
+        transition: all .3s ease;
+    }
+}
+
+@include mq(xs,max) {
+    .intro-slider.intro-slider-1 {
+        .banner.intro-slide img {
+            right: -100%;
+            bottom: -35%;
+        }
+    }
+    .intro-slide.banner  {
+        .banner-actions .btn {
+            font-size: 1.4rem;
+            padding: 1.3rem 2.5rem;
+            margin-right: 1.7rem;
+        }
+    }
+}

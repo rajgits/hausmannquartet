@@ -1,0 +1,35 @@
+// Owl Carousel
+
+.owl-theme.owl-nav-inside .owl-nav {
+    .owl-prev  {
+        left: 65px;
+    }
+    .owl-next {
+        right: 65px;
+    }
+}
+
+.intro-slider.owl-theme .owl-nav [class*='owl-'] {
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 1500px) {
+    .intro-slider.owl-theme {
+        .owl-nav [class*='owl-'] {
+            opacity: 0;
+            &:hover {
+                visibility: visible;
+                opacity: 1;
+                
+            }
+        }
+    }
+}
+
+@include mq(xl,max) {
+    .review-carousel.owl-carousel.owl-simple {
+        margin: 0 2rem;
+    }
+}
