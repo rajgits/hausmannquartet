@@ -28,53 +28,98 @@ include("header.php");
                 5500 Campanile Drive<br>
                 San Diego, CA 92182-7902</p>
             <p>&nbsp;</p>
-            <div class="col-sm-4">
-                <div class="gf_browser_unknown gform_wrapper" id="gform_wrapper_1">
-                    <form method="post" enctype="multipart/form-data" id="gform_1" action="./index.html">
-                        <div class="gform_body">
-                            <ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below">
-                                <li id="field_1_1" class="gfield gfield_contains_required field_sublabel_below field_description_below">
-                                    <label class="gfield_label" for="input_1_1">Name<span class="gfield_required">*</span></label>
-                                    <div class="ginput_container"><input name="input_1" id="input_1_1" type="text" value="" class="medium" tabindex="44"></div>
-                                </li>
-                                <li id="field_1_2" class="gfield gfield_contains_required field_sublabel_below field_description_below">
-                                    <label class="gfield_label" for="input_1_2">Email<span class="gfield_required">*</span></label>
-                                    <div class="ginput_container"><input name="input_2" id="input_1_2" type="text" value="" class="medium" tabindex="45"></div>
-                                </li>
-                                <li id="field_1_3" class="gfield field_sublabel_below field_description_below">
-                                    <label class="gfield_label" for="input_1_3">Message</label>
-                                    <div class="ginput_container">
-                                        <textarea name="input_3" id="input_1_3" class="textarea medium" tabindex="46" rows="10" cols="50"></textarea>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" tabindex="47" onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  '>
-                            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
-                            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
-
-                            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-                            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsImNkMWYxMzIwNjgxNGMyMTM3ZGM1OGJmMTQ5NGQyNjU4Il0=">
-                            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
-                            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
-                            <input type="hidden" name="gform_field_values" value="">
-
-                        </div>
-                    </form>
-                </div>
-                <script type="text/javascript">
-                    jQuery(document).bind('gform_post_render', function(event, formId, currentPage) {
-                        if (formId == 1) {}
-                    });
-                    jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit) {});
-                </script>
-                <script type="text/javascript">
-                    jQuery(document).ready(function() {
-                        jQuery(document).trigger('gform_post_render', [1, 1])
-                    });
-                </script>
-            </div>
+           
         </main><!-- /.main -->
+    </div>
+    <div class="col-md-12">
+    <div class="container mt-1 mb-5 mt-md-3 mb-md-15">
+                <h2 class="ls-n-20 text-center">Got questions?<br>Write us a message.</h2><br>
+                <div class="book-form book-form-contact mr-lg-20 ml-lg-20"> 
+                    <div class="row row-joined">
+                        
+                        <div class="col-sm-12 col-md-6 mt-2">
+                            <div class="form-group col-md-7">
+                                <input type="text" class="form-control demoInputBox" name="userName" id="userName" placeholder="Name *" ><br>
+                                <span id="userName-info" class="info"> </span>
+                            </div>
+                        </div>
+                      
+                        <div class="col-sm-12 col-md-12 mt-2">
+                            <div class="form-group col-md-7">
+                                <input type="email" class="form-control demoInputBox" name="userEmail" id="userEmail" placeholder="Email *"><br>
+                                <span id="userEmail-info" class="info"> </span>
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-12 mt-2">
+                            <div class="form-group col-md-7">
+                                <textarea class="form-control text-area demoInputBox" name="content" id="content" placeholder="Message *"></textarea><br>
+                                <span id="content-info" class="info"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary-color btn-form d-flex mr-auto ml-auto mb-1"  onClick="sendContact();">Send Message</button>
+                </div>
+            </div>
     </div>
     <!-- /.content -->
 </div>
+<?php
+include("footer.php");
+?>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+            function sendContact() {
+                   
+                    var valid;	 
+                    valid = validateContact();
+                    if(valid) {
+                        jQuery.ajax({
+                            url: "contact_mail_send.php", 
+                            data:'userName='+$("#userName").val()+'&userEmail='+
+                            $("#userEmail").val()+'&content='+
+                            $(content).val(),
+                            type: "POST",
+                            success:function(data){
+                               // $("#mail-status").html(data);
+                               swal({
+                                    title: "Thank You!",
+                                    text: "we will get back to you soon.",
+                                    icon: "success",
+                                });
+                            },
+                            error:function (){}
+                        }); 
+                    }
+                }  
+
+                function validateContact() {
+                    var valid = true;	
+                    $(".demoInputBox").css('background-color','');
+                    $(".info").html('');
+                    if(!$("#userName").val()) {
+                        $("#userName-info").html("(<style='color:red'>required </style>)");
+                        $("#userName").css('background-color','#FFFFDF');
+                        valid = false;
+                    }
+                    if(!$("#userEmail").val()) {
+                        $("#userEmail-info").html("(required)");
+                        $("#userEmail").css('background-color','#FFFFDF');
+                        valid = false;
+                    }
+                    if(!$("#userEmail").val().match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+                        $("#userEmail-info").html("(invalid)");
+                        $("#userEmail").css('background-color','#FFFFDF');
+                        valid = false;
+                    }
+                
+                    if(!$("#content").val()) {
+                        $("#content-info").html("(required)");
+                        $("#content").css('background-color','#FFFFDF');
+                        valid = false;
+                    }
+                    return valid;
+                }
+    </script>

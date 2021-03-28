@@ -99,7 +99,7 @@ $alert_err=array();
 $alert_msg=array();
 
 //set time zone
-date_default_timezone_set("Asia/Kolkata");
+date_default_timezone_set("America/Los_Angeles");
 
 //For pagging Number of record in a page
 $numberOfPage=10;

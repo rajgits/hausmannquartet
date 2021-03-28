@@ -41,7 +41,7 @@ $schedulePostEvent  = $db->getRows("select * from schedule_cms where status= 1 A
 				<div class="past-event-content">
 					<p class="evt-date">
 						<a href="./schedule_details.php?link_name=<?= $sh['link_name'] ?>">
-						<?=$sh['date'] ?> </a> 
+						<?=date("F j, Y", strtotime( $sh['date'])) ?> </a> 
 					</p>
 					<p>
 						<?=$sh['venue'] ?>
@@ -80,7 +80,8 @@ $schedulePostEvent  = $db->getRows("select * from schedule_cms where status= 1 A
 				<div class="past-event-content">
 					<p class="evt-date">
 						<a href="./schedule_details.php?link_name=<?= $sh['link_name'] ?>"> 
-						<?=$sh['date'] ?> </a> 
+						<?=date("F j, Y", strtotime( $sh['date'])) ?>
+					</a> 
 					</p>
 					<p>
 						<?=$sh['venue'] ?>

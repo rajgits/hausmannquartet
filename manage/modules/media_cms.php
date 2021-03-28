@@ -212,7 +212,7 @@ if ($pgAct == "add" || ($pgAct == "edit" && isset($_GET['id']) && trim($_GET['id
 
 
 
-                                    <div class="form-body">
+                                    <div class="form-body"> 
                                     <div class="form-group">
                                         <label class="col-md-3 control-label">Status *</label>
                                         <div class="col-md-4">

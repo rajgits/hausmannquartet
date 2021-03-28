@@ -81,13 +81,9 @@ $about4 = $db->getRow("select * from about_cms where status = 1 AND cms_id = 12"
 </sectin>
 	
 </div>
-          </main><!-- /.main -->
-                  </div>
-<!-- /.content -->
-      </div>
-<!-- /.wrap -->	
-</div>
-
+</div>       
 <?php
 include("footer.php");
 ?> 
+
+</div>

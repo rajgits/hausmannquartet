@@ -39,7 +39,7 @@ if (isset($_POST['submit']))
                                 'small_title'       => trim($_POST['small_title']),
                                 'description'       => trim($_POST['description']),
                                 'status'            => trim($_POST['status']),
-                                'date'              => trim($_POST['status']),
+                                'date'              => trim($_POST['date']),
                                 'orginal_post'      => trim($_POST['orginal_post']),
 
 
@@ -88,7 +88,7 @@ if (isset($_POST['submit']))
                                 'small_title'         => trim($_POST['small_title']),
                                 'description'       => trim($_POST['description']),
                                 'status'            => trim($_POST['status']),
-                                'date'              => trim($_POST['status']),
+                                'date'              => trim($_POST['date']),
                                 'orginal_post'      => trim($_POST['orginal_post']),
 
                                 
@@ -210,27 +210,21 @@ if ($pgAct == "add" || ($pgAct == "edit" && isset($_GET['id']) && trim($_GET['id
                                         </div>
                                     </div>
 
-                                            
                                    
-                                    <!-- <div class="form-group">
-                                        <label class="col-md-3 control-label">Date </label>  
-                                        <div class="col-md-7" id='datetimepicker1'>
-                                            <input type='text' name="post1_date" id="date" class="form-control" value='<?php if($_POST) { echo trim($_POST['post1_date']);}else { echo $aryForm['post1_date'];} ?>' placeholder="Enter Date">
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                                        </div>
-                                    </div> -->
 
+                                   
                                     <div class="form-body">
-                                   <div class="form-group">
-                                    <label class="col-md-3 control-label">Date </label>
-                                        <div class='input-group date col-md-7' id='datetimepicker1'>
-                                            <input type='text' class="form-control" name="date" id="date"  value='<?php if($_POST) { echo trim($_POST['date']);}else { echo $aryForm['date'];} ?>' />
-                                            
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                                            </span>
-                                        </div>
-                                   </div>
-                                </div>
+                                   
+                                            <div class="form-group">
+                                            <label class="col-md-3 control-label">Date </label>
+                                                <div class='input-group date col-md-7' id='datetimepicker1'>
+                                                    <input type='text' class="form-control" name="date" id="date"  value='<?php if($_POST) { echo trim($_POST['date']);}else { echo $aryForm['date'];} ?>' />
+                                                   
+                                                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                    </div> 
 
                                     <div class="form-group">
                                         <label class="col-md-3 control-label">Orginal Post</label>

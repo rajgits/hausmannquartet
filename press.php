@@ -25,7 +25,7 @@ $press = $db->getRows("select * from press_cms where status= 1 ORDER BY `cms_id`
                     <article class="post-1600 post type-post status-publish format-standard hentry category-uncategorized">
                         <header>
                             <h2 class="entry-title"><a href="./press_details.php?link_name=<?=$ps['link_name'] ?>"><?= $ps['title'] ?></a></h2>
-                            <?= $ps['date'] ?>
+                            <?=date("F j, Y", strtotime( $ps['date'])) ?>
                         </header>
                         <div class="entry-intro">
                             <p><?= $ps['orginal_post'] ?></p> 

@@ -224,8 +224,8 @@ if ($pgAct == "add" || ($pgAct == "edit" && isset($_GET['id']) && trim($_GET['id
 
                                     <div class="form-group">
                                         <label class="col-md-3 control-label">Venue</label> 
-                                        <div class="col-md-7">
-                                            <input type='text' name="venue" id="venue" class="form-control" value='<?php if($_POST) { echo trim($_POST['venue']);}else { echo $aryForm['venue'];} ?>' placeholder="Enter Venue">
+                                        <div class="col-md-7"> 
+                                            <textarea name="venue" class="form-control" id="venue"> <?php if($_POST) { echo trim($_POST['venue']);}else { echo $aryForm['venue'];} ?> </textarea>
                                         </div>
                                     </div>
 
@@ -297,7 +297,7 @@ if ($pgAct == "add" || ($pgAct == "edit" && isset($_GET['id']) && trim($_GET['id
                                                 <?php
                                             }
                                             ?>
-                                              <p class="btn-primary" style="margin-top:2px; color:#fff">1506*905 Format: PNG(Transparent)<p>
+                                              <!-- <p class="btn-primary" style="margin-top:2px; color:#fff">1506*905 Format: PNG(Transparent)<p> -->
                                         </div>
                                     </div>
 

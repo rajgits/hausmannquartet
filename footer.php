@@ -5,14 +5,14 @@
 
 	<div class="col-sm-2 col-sm-offset-6 sm-container">
 		<div class="sm text-center row">
-			<div class="col-xs-4 col-sm-3 col-sm-offset-1 mail-icon"><a href="./contact/index.html"><i class="fa fa-envelope-o"></i></a></div>
-			<div class="col-xs-4 col-sm-3 facebook-icon"><a href="https://www.facebook.com/pages/Hausmann-Quartet/325042127540933" target="_blank"><i class="fa fa-facebook"></i></a></div>
-			<div class="col-xs-4 col-sm-3 twitter-icon"><a href="http://twitter.com/Hausmannquartet" target="_blank"><i class="fa fa-twitter"></i></a></div>
+			<div class="col-xs-4 col-sm-3 col-sm-offset-1 mail-icon"><a href="./contact.php"><i class="fa fa-envelope-o"></i></a></div>
+			<div class="col-xs-4 col-sm-3 facebook-icon"><a href="<?php echo $array_set[9][2];?>" target="_blank"><i class="fa fa-facebook"></i></a></div>
+			<div class="col-xs-4 col-sm-3 twitter-icon"><a href="<?php echo $array_set[8][2];?>" target="_blank"><i class="fa fa-twitter"></i></a></div>
 		</div>
 	</div>
 
 </footer>
-<script type="text/javascript">
+<script type="text/javascript"> 
 		jQuery(function(){
 			jQuery("a.yes").YouTubePopUp();
 			jQuery("a.no").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay

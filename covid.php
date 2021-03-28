@@ -8,7 +8,7 @@
 <?php
 include("header.php");
 $covid = $db->getRows("select * from covid_cms  where status= 1  ORDER BY `cms_id` ASC");  
-$covidPage = $db->getRow("select * from covid_cms  where link_name='".$_GET['link_name']."' ");  
+$covidPage = $db->getRow("select * from covid_cms  where link_name='".$_GET['link_name']."' ");   
 
 ?> 
  

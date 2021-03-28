@@ -1,6 +1,7 @@
 <?php
 include("header.php");
 $quote = $db->getRows("select * from quote_cms where status= 1  ORDER BY `cms_id` ASC");  
+$scheduleUpcoming = $db->getRows("select * from schedule_cms where status= 1 AND date >  '".$ldate."' ORDER BY `cms_id` ASC");
 ?>
 <div class="wrap container" role="document">
 				<div class="content row">
@@ -20,7 +21,13 @@ $quote = $db->getRows("select * from quote_cms where status= 1  ORDER BY `cms_id
 				<div class="col-sm-3 area area1">
 					<h2 class="text-center">Next Concert:</h2>
 					
-        <p>No upcoming events currently posted. Please check back soon!</p>
+				<h3><a href="./schedule_details.php?link_name=<?= $scheduleUpcoming[0]['link_name'] ?>">	<?=$scheduleUpcoming[0]['title'] ?></a></h3>
+				<p class="evt-date">
+				<a href="./schedule_details.php?link_name=<?= $scheduleUpcoming[0]['link_name'] ?>"><?=date("F j, Y", strtotime( $scheduleUpcoming[0]['date'])) ?> | <?= $scheduleUpcoming[0]['time']?>  <?=$scheduleUpcoming[0]['mer']==2?'PM' : 'AM'  ?></a> 
+				</p>
+				<p><a href="./schedule_details.php?link_name=<?= $scheduleUpcoming[0]['link_name'] ?>">
+					<?=$scheduleUpcoming[0]['venue'] ?>
+				</a></p>
 
     				</div>
 				<div class="col-sm-6 area area2">
